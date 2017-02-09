@@ -32,10 +32,10 @@ from datetime import datetime, date, time
 ids = [''] # enter your search terms, separated by commmas
        
 from twython import Twython #get app keys from Twitter by registering at dev.twitter.com/apps
-t = Twython(app_key='g4ivCiTluluiYyVd6cmymjl0k',
-    app_secret='ES1NsDULRUzNUP5Cesu5JphJAdv0rjMWh3ETtQSMBBGVIxqJpS',
-    oauth_token='726513149499707392-bVA1ro9JsNoiL8rU3CuFrWxFjbBgbf1',
-    oauth_token_secret='bsGxazylt6SUmD5BJh0rMcsxBkK7O5P7Mrw4mF3bgO7vS')
+t = Twython(app_key='INSERT API KEY',
+    app_secret='INSERT SECRET',
+    oauth_token='INSERT AUTH CODE',
+    oauth_token_secret='INSERT SECRET AUTH CODE')
 
 Base = declarative_base()
 
